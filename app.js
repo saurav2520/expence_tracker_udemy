@@ -42,6 +42,6 @@ app.all("*",(req,res,next)=>{
 });
 
 app.use(errorHandler)
-app.listen(8000,()=>{
+app.listen(4000,()=>{
     console.log("Server started successfully");
 })
